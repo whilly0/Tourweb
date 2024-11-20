@@ -1,32 +1,55 @@
-  #topbar{
-                border-bottom: 1px solid rgb(116, 141, 211);;
-                box-sizing: border-box;
-                padding: 22px 80px;
-                text-align: center;
-                background-color: rgb(116, 141, 211);
-            }
-            .menu-item{
-                padding: 8px; 
-                font-size: 24px;
-                color:blue;
-                font-weight: 600px;
-                text-decoration: none;
-            }
-            .article{
-               
-                font-size: 24px;
-                line-height: -1px;
-                color: black;
-            }
-            .article-pic{
-                width:400px;
-                height: 550px;
-                float: left;
-                padding-right: 15px;
-            }
-           #article-wrapper{
-                padding:1%;
-            }
-            ul {
-              list-style-type: square;
-            }
+/* aboutus.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: slategrey;
+}
+
+#topbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu-item:hover {
+    background-color: #555;
+}
+
+.article-pic {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.article-description, .article-conclusion {
+    font-size: 20px;
+    line-height: 1.4;
+    color: white;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.offer-section {
+    padding-left: 20px;
+}
+
+.right-align {
+    text-align: right;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.right-align li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
