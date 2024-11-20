@@ -1,190 +1,89 @@
-<html>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Travel</title>
-        <style>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the external CSS -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header id="topbar">
+        <nav>
+            <span><a class="menu-item" href="index.html">TRIPS</a></span>
+            <span><a class="menu-item" href="about.html">ABOUT</a></span>
+            <span><a class="menu-item" href="contact.html">CONTACT</a></span>
+        </nav>
+    </header>
 
-            #topbar{
-                border-bottom: 1px solid rgb(116, 141, 211);;
-                box-sizing: border-box;
-                padding: 22px 80px;
-                text-align: center;
-                background-color: rgb(116, 141, 211);
-                position: sticky;
-                top: 0%;
-            }
+    <!-- Main Image -->
+    <div>
+        <img class="middle" src="https://alumni.mcmaster.ca/s/1439/images/editor/travel/2023/travel_2022_summer.png" alt="Travel destinations collage" />
+    </div>
 
-            .menu-item{
-                padding: 8px; 
-                font-size: 24px;
-                font-weight: 600px;
-                color: black;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .menu-item:link{
-                color: black;
-            }
-
-            .menu-item:visited{
-                color: blue;
-            }
-
-            .menu-item:hover{
-                color:red;
-            }
-
-            .menu-item:active{
-                color: purple;
-            }
-
-            .middle{
-                height: 400px;
-                width: 1370px;
-            }
-
-            .images{
-                width: 450px;
-                height: 300px;
-                text-align: center;
-                padding:10px;
-            }
-
-            .olumo{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-            
-            .erinijesha{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-            .ikogisi{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-            
-            .idanre{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-            .barbeach{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-            .obudumountains{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-            .nationalpark{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-            .ogbunikecave{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-            .osunosogbo{
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-        </style>
-    <body style="margin:0; background-color:slategrey">
-        <header  id="topbar">
-            <nav>
-               <span><a class="menu-item" href="index.html">TRIPS</a></span>
-                <span><a class="menu-item" href="about.html">ABOUT</a></span>
-                <span><a class="menu-item" href="contact.html">CONTACT</a></span>
-
-            </nav>
-        </header>
-        <div>
-            <img class="middle" src="https://alumni.mcmaster.ca/s/1439/images/editor/travel/2023/travel_2022_summer.png" alt="beautiful places in the world"/>
-        </div>
-
-        <h1 style= "text-align:center; color:black; margin-top: 16px; font-size: 50px; margin-bottom: 1px;";> My Travel History</h1>
-
-        <table style="text-align:center; margin-left:auto; margin-right:auto;">
-            <tr>
-                <td>
-                    <div>
-                        <img class="images" src="https://guardian.ng/wp-content/uploads/2017/03/Olumo-Rock.jpg" alt="beautiful places in the world"/>
-                        <a class="olumo" href="/olumo rock.html rock.html";>Olumo Rock, Ogun-State</a>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img class="images" src="https://i0.wp.com/refinedng.com/wp-content/uploads/2020/07/3273007_9_jpeg02519bfb266773f243fdef49420313d1.jpeg?w=720&ssl=1" alt="beautiful places in the world"/>
-                        <a class="Erinjesha" href="/erinijesha.html";>Erinijesha Waterfall, Osun-State</a>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img class="images" src="https://live.staticflickr.com/3739/9505496913_8c8be16d30_b.jpg" alt="beautiful places in the world"/>
-                        <a class ="BarBeach" href="/barbeach.html";>Barbaech, Lagos-State</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div>
-                        <img class="images" src="https://www.travelstart.com.ng/blog/wp-content/uploads/2021/07/ikogisi.jpg" alt="beautiful places in the world"/>
-                        <a class="ikogisi" href="/ikogisi.html";>Ikogisi Waterfall, Ekiti-State</a>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img class="images" src="https://www.travelstart.com.ng/blog/wp-content/uploads/2021/07/obudu.jpg" alt="beautiful places in the world"/>
-                        <p>Obudu Mountains, Cross River-State</p>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img class="images" src="https://www.travelstart.com.ng/blog/wp-content/uploads/2021/07/Idanre_hills.jpg" alt="beautiful places in the world"/>
-                        <a class="idanre" href="/idanrehill.html hill.html">Idanre Hill, Ondo-State</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div>
-                        <img class="images" src="https://netstorage-legit.akamaized.net/images/vllkyt6e6ideamvok.jpg?imwidth=720" alt="beautiful places"/>
-                        <a class="kanjipark" href="/kainjipark.html">kanjipark, Kogi-State</a>
-
-                    </div>
-                </td>
-                <td>     
-                    <div>
-                        <img class="images" src="https://netstorage-legit.akamaized.net/images/vllkyt5sqgm26oghv.jpg?imwidth=720" alt="landform"/>
-                        <p>Ogbunike Caves, Enugu-State</p>
-                    </div>
-                </td>
-                <td>  
-                    <div>
-                        <img class="images" src="https://netstorage-legit.akamaized.net/images/vllkyt2ev8haal1arg.jpg?imwidth=720" alt="beautiful places"/>
-                        <p>The Osun-Osogbo Grove</p>
-                    </div>
-                </td>
-            </tr>
-        </table>
-
-    </body>
-
-
+    <!-- Travel History Section -->
+    <h1>My Travel History</h1>
+    <table>
+        <tr>
+            <td>
+                <div>
+                    <img class="images" src="https://guardian.ng/wp-content/uploads/2017/03/Olumo-Rock.jpg" alt="Olumo Rock, Ogun State" />
+                    <a href="olumo-rock.html">Olumo Rock, Ogun-State</a>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <img class="images" src="https://i0.wp.com/refinedng.com/wp-content/uploads/2020/07/3273007_9_jpeg02519bfb266773f243fdef49420313d1.jpeg?w=720&ssl=1" alt="Erinijesha Waterfall, Osun State" />
+                    <a href="erinijesha.html">Erinijesha Waterfall, Osun-State</a>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <img class="images" src="https://live.staticflickr.com/3739/9505496913_8c8be16d30_b.jpg" alt="Bar Beach, Lagos State" />
+                    <a href="barbeach.html">Bar Beach, Lagos-State</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <img class="images" src="https://www.travelstart.com.ng/blog/wp-content/uploads/2021/07/ikogisi.jpg" alt="Ikogisi Waterfall, Ekiti State" />
+                    <a href="ikogisi.html">Ikogisi Waterfall, Ekiti-State</a>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <img class="images" src="https://www.travelstart.com.ng/blog/wp-content/uploads/2021/07/obudu.jpg" alt="Obudu Mountains, Cross River State" />
+                    <p>Obudu Mountains, Cross River-State</p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <img class="images" src="https://www.travelstart.com.ng/blog/wp-content/uploads/2021/07/Idanre_hills.jpg" alt="Idanre Hill, Ondo State" />
+                    <a href="idanre-hill.html">Idanre Hill, Ondo-State</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <img class="images" src="https://netstorage-legit.akamaized.net/images/vllkyt6e6ideamvok.jpg?imwidth=720" alt="Kainji Park, Kogi State" />
+                    <a href="kainji-park.html">Kainji Park, Kogi-State</a>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <img class="images" src="https://netstorage-legit.akamaized.net/images/vllkyt5sqgm26oghv.jpg?imwidth=720" alt="Ogbunike Caves, Enugu State" />
+                    <p>Ogbunike Caves, Enugu-State</p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <img class="images" src="https://netstorage-legit.akamaized.net/images/vllkyt2ev8haal1arg.jpg?imwidth=720" alt="Osun-Osogbo Grove, Osun State" />
+                    <p>The Osun-Osogbo Grove</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
 </html>
-
