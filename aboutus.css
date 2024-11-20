@@ -27,3 +27,6 @@
            #article-wrapper{
                 padding:1%;
             }
+            ul {
+              list-style-type: square;
+            }
