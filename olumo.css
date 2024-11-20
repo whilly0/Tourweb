@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    margin: 0;
+    background-color: rgb(184, 179, 184);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
+}
+/* Header Styles */
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: black;
+    margin: 20px 0;
+}
+
+/* Main Image */
+.images {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Gallery Images */
+.iimages {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+/* Table Styles */
+table {
+    text-align: center;
+    margin: 20px auto;
+    border-spacing: 10px;
+}
+
+td {
+    padding: 10px;
+}
