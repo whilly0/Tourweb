@@ -52,15 +52,13 @@ body {
 }
 
 /* Image Gallery */
-.image-gallery {
-    text-align: center;
-    margin: 20px auto;
+  .imagess{
+     height: 500px;
+     width: 1370px;
 }
-
-.image-wrapper {
-    width: 672px;
-    height: 300px;
-    display: inline-block;
-    margin: 10px;
-    object-fit: cover;
-}
+  .image-wrapper{
+      width: 672px;
+      height: 300px;
+      display: inline;
+      margin: 0;
+  }
