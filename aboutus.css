@@ -33,7 +33,7 @@ body {
 .article-description, .article-conclusion {
     font-size: 20px;
     line-height: 1.4;
-    color: white;
+    color: black;
     margin: 10px 0;
     text-align: justify;
 }
