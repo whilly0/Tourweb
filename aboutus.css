@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
 }
+
 .menu-item {
     padding: 8px;
     font-size: 24px;
@@ -17,8 +18,17 @@
     text-transform: uppercase;
 }
 
+.menu-item:link,
+.menu-item:visited {
+    color: black;
+}
+
 .menu-item:hover {
-    background-color: #555;
+    color: red;
+}
+
+.menu-item:active {
+    color: purple;
 }
 
 body {
