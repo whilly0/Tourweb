@@ -17,7 +17,7 @@ header {
 
 .image-header {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 h1 {
@@ -29,15 +29,15 @@ h1 {
 /* Main content styling */
 .description {
     padding: 20px;
-    color: white;
+    color: black;
     line-height: 1.6;
 }
 
 
 
 .image-wrapper {
-    width: 45%;  /* Each image takes up 45% of the width */
-    height: 300px;
+    width: 50%;  /* Each image takes up 45% of the width */
+    height: 400px;
     margin: 10px;
     object-fit: cover;
 }
