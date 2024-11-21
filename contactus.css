@@ -6,16 +6,29 @@
                 background-color: rgb(116, 141, 211);
                 position: sticky;
                 top: 0;
-            }
+     }
 
             .menu-item {
-                  padding: 8px;
-                  font-size: 24px;
-                  font-weight: bold;
-                  color: black;
-                  text-decoration: none;
-                  text-transform: uppercase;
-            }
+                padding: 8px;
+                font-size: 24px;
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+                text-transform: uppercase;
+    }
+
+            .menu-item:link,
+            .menu-item:visited {
+                color: black;
+    }
+
+            .menu-item:hover {
+                color: red;
+}
+
+            .menu-item:active {
+                color: purple;
+   }
 
             .container{
                 min-height: 100vh;
