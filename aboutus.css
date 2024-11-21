@@ -57,11 +57,6 @@ body {
     padding-left: 20px;
 }
 
-.right-align {
-    text-align: right;
-    list-style-type: none;
-    padding-left: 0;
-}
 
 .right-align li {
     font-size: 18px;
