@@ -6,7 +6,7 @@ body, h1, p, img, table {
 
 /* Body styling */
 body {
-    background-color: rgb(141, 150, 202);
+    background-color: white;
     font-size: 20px;
     font-family: Arial, sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 /* Header styling */
 h1 {
     font-size: 48px;
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 20px;
 }
@@ -28,7 +28,7 @@ h1 {
 /* Description styling */
 p {
     padding: 20px;
-    color: white;
+    color: black;
     line-height: 1.6;
 }
 
