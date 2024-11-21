@@ -3,7 +3,7 @@
     border-bottom: 1px solid #d3e6f5;
     padding: 22px 80px;
     text-align: center;
-    background-color: #d3e6f5; /* Soft pastel color for the topbar */
+    background-color: lightskyblue;
     position: sticky;
     top: 0;
 }
