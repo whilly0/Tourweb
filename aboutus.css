@@ -34,7 +34,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: slategrey;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
@@ -47,7 +47,6 @@ body {
 }
 
 .article-description, .article-conclusion {
-    font-size: 20px;
     line-height: 1.4;
     color: black;
     margin: 10px 0;
@@ -55,12 +54,11 @@ body {
 }
 
 .offer-section {
-    padding-left: 20px;
+    padding-left: 22px;
 }
 
 
 .right-align li {
-    font-size: 18px;
     line-height: 1.6;
     color: black;
 }
