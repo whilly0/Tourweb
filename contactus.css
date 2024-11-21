@@ -46,6 +46,7 @@ body {
 
 /* Form Container Styling */
 .container {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,8 +54,8 @@ body {
 }
 
 .container form {
-    width: 670px;
-    height: 410px;
+    width: 700px;
+    height: 500px;
     display: flex;
     justify-content: center;
     box-shadow: none;
