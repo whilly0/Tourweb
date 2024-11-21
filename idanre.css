@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(141, 150, 202);
+    background-color: white;
     font-size: 20px;
 }
 
@@ -21,9 +21,9 @@ h1 {
 }
 
 .image-wrapper {
-    width: 672px;
+    width: 45%;  /* Each image takes up 45% of the width */
     height: 300px;
-    display: inline-block;
     margin: 10px;
+    object-fit: cover;
 }
 
