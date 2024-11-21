@@ -16,49 +16,38 @@
             }
 
 /* General body styling */
+/* General Styles */
 body {
     margin: 0;
-    background-color: slategrey;
-    font-family: Arial, sans-serif;
+    background-color: rgb(184, 179, 184);
     font-size: 20px;
-    line-height: 1.6;
-    color: black;
-    margin: 0;
 }
 
-/* Header Section */
-.header-section {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.images {
-    height: 500px;
-    width: 100%;
-    max-width: 1370px;
-    display: block;
-    margin: 0 auto;
-}
-
-.header-section h1 {
+h1 {
     font-size: 48px;
-    margin: 20px 0;
+    text-align: center;
 }
 
-/* Main Text */
-.main-text {
+p {
     font-size: 15px;
+    line-height: 1.4;
     margin: 20px;
 }
 
-/* Image Gallery */
-  .imagess{
-     height: 500px;
-     width: 1370px;
+/* Image styles */
+.images {
+    height: 500px;
+    width: 1370px;
 }
-  .image-wrapper{
-      width: 672px;
-      height: 300px;
-      display: inline;
-      margin: 0;
-  }
+
+.image-table {
+    display: flex;
+    flex-wrap: wrap; /* Wrap images to the next line */
+    justify-content: center;
+}
+
+.image-wrapper {
+    width: 48%; /* Set width to 48% for two images per row */
+    margin: 10px;
+    height: 300px; /* Keep the height consistent */
+}
