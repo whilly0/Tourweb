@@ -24,11 +24,6 @@ h1 {
 .image-wrapper {
     width: 672px;
     height: 300px;
-    display: inline-block;
     margin: 10px;
 }
 
-.image-gallery {
-    text-align: center;
-    margin-bottom: 20px;
-}
