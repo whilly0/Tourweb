@@ -13,18 +13,22 @@ h1 {
     font-size: 15px;
     line-height: 1.4;
     margin: 20px;
+    color: black;
 }
 
 .imagess {
     height: 500px;
-    width: 1800px;
-    margin: o:
+    width: 1370px;
 }
 
 .image-wrapper {
-    width: 45%;  /* Each image takes up 45% of the width */
+    width: 672px;
     height: 300px;
+    display: inline-block;
     margin: 10px;
-    object-fit: cover;
 }
 
+.image-gallery {
+    text-align: center;
+    margin-bottom: 20px;
+}
