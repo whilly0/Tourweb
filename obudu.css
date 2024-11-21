@@ -38,6 +38,8 @@
             .images {
                 height: 500px;
                 width: 1370px;
+                display: block;
+                object-fit: cover;
             }
 
             .image-table {
