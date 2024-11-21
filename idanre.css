@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: rgb(141, 150, 202);
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.content {
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 20px;
+}
+
+.imagess {
+    height: 500px;
+    width: 1370px;
+}
+
+.image-wrapper {
+    width: 672px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-gallery {
+    text-align: center;
+    margin-bottom: 20px;
+}
