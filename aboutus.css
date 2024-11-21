@@ -1,7 +1,7 @@
 /* aboutus.css */
 /* Topbar Styles */
           #top-bar{
-               1px solid rgb(116, 141, 211);
+               border-bottom:1px solid rgb(116, 141, 211);
                 padding: 22px 80px;
                 text-align: center;
                 background-color: rgb(116, 141, 211);
