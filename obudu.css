@@ -36,9 +36,9 @@
 
 /* Image styles */
             .images {
-                height: 800px;
-                margin: 20px;
-                width: 1370px;
+                height: 850px;
+                
+                width: 1420px;
                 display: block;
                 object-fit: cover;
             }
