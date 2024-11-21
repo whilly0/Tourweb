@@ -37,6 +37,7 @@
 /* Image styles */
             .images {
                 height: 800px;
+                margin: 0;
                 width: 1370px;
                 display: block;
                 object-fit: cover;
@@ -49,7 +50,7 @@
             }
 
             .image-wrapper {
-                width: 700px; /* Set width to 48% for two images per row */
+                width: 600px; /* Set width to 48% for two images per row */
                 margin: 10px;
                 object-fit: cover;
                 height: 300px; /* Keep the height consistent */
