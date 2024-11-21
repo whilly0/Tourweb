@@ -37,7 +37,7 @@
 /* Image styles */
             .images {
                 height: 800px;
-                margin: 0;
+                margin: 10px;
                 width: 1370px;
                 display: block;
                 object-fit: cover;
