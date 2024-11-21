@@ -35,14 +35,15 @@ h1 {
 
 /* Image gallery styling */
 .image-gallery {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;  /* Allows the images to wrap to the next line */
+    justify-content: center; /* Centers the images */
     padding: 20px;
 }
 
 .image-wrapper {
-    width: 672px;
+    width: 45%;  /* Each image takes up 45% of the width */
     height: 300px;
-    display: inline-block;
     margin: 10px;
     object-fit: cover;
 }
