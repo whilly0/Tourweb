@@ -4,7 +4,7 @@ body, h1, p, img {
 }
 
 body {
-    background-color: rgb(141, 150, 202);
+    background-color: white;
     font-size: 20px;
     font-family: Arial, sans-serif;
 }
@@ -22,7 +22,7 @@ header {
 
 h1 {
     font-size: 48px;
-    color: white;
+    color: black;
     margin-top: 20px;
 }
 
@@ -33,13 +33,7 @@ h1 {
     line-height: 1.6;
 }
 
-/* Image gallery styling */
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap;  /* Allows the images to wrap to the next line */
-    justify-content: center; /* Centers the images */
-    padding: 20px;
-}
+
 
 .image-wrapper {
     width: 45%;  /* Each image takes up 45% of the width */
