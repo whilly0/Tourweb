@@ -1,4 +1,4 @@
-.back-arrow {
+          .back-arrow {
                 font-size: 24px;
                 text-decoration: none;
                 color: black;
@@ -17,37 +17,37 @@
 
 /* General body styling */
 /* General Styles */
-body {
-    margin: 0;
-    background-color: rgb(184, 179, 184);
-    font-size: 20px;
-}
+            body {
+                margin: 0;
+                background-color: rgb(184, 179, 184);
+                font-size: 20px;
+            }
 
-h1 {
-    font-size: 48px;
-    text-align: center;
-}
+            h1 {
+                font-size: 48px;
+                text-align: center;
+            }  
 
-p {
-    font-size: 15px;
-    line-height: 1.4;
-    margin: 20px;
-}
+            p {
+                font-size: 15px;
+                line-height: 1.4;
+                margin: 20px;
+            }
 
 /* Image styles */
-.images {
-    height: 500px;
-    width: 1370px;
-}
+            .images {
+                height: 500px;
+                width: 1370px;
+            }
 
-.image-table {
-    display: flex;
-    flex-wrap: wrap; /* Wrap images to the next line */
-    justify-content: center;
-}
+            .image-table {
+                display: flex;
+                flex-wrap: wrap; /* Wrap images to the next line */
+                justify-content: center;
+            }
 
-.image-wrapper {
-    width: 48%; /* Set width to 48% for two images per row */
-    margin: 10px;
-    height: 300px; /* Keep the height consistent */
-}
+            .image-wrapper {
+                width: 48px; /* Set width to 48% for two images per row */
+                margin: 10px;
+                height: 300px; /* Keep the height consistent */
+            }
