@@ -30,6 +30,14 @@
                 color: purple;
             }
 
+            body {
+                font-family: Arial, sans-serif;
+                background-color: white;
+                font-size: 22px;
+                margin:0; 
+                padding:0; 
+               box-sizing :border-box;
+            }
 
             .container{
                 min-height: 100vh;
