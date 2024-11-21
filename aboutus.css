@@ -1,12 +1,12 @@
 /* aboutus.css */
 /* Topbar Styles */
           #topbar {
-    border-bottom: 1px solid rgb(116, 141, 211);
-    padding: 22px 80px;
-    text-align: center;
-    background-color: rgb(116, 141, 211);
-    position: sticky;
-    top: 0;
+             border-bottom: 1px solid rgb(116, 141, 211);
+             padding: 22px 80px;
+             text-align: center;
+             background-color: rgb(116, 141, 211);
+             position: sticky;
+             top: 0;
 }
 
 .menu-item {
