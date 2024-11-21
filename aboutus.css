@@ -1,16 +1,5 @@
 /* aboutus.css */
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: slategrey;
-}
-
-#topbar {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-}
-
 .menu-item {
     padding: 8px;
     font-size: 24px;
@@ -22,6 +11,17 @@ body {
 
 .menu-item:hover {
     background-color: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: slategrey;
+}
+
+#topbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
 }
 
 .article-pic {
