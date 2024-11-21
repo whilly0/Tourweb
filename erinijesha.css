@@ -1,0 +1,33 @@
+.images {
+    height: 500px;
+    width: 1370px;
+}
+
+.iimages {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(184, 179, 184);
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
