@@ -7,16 +7,16 @@
              background-color: #d3e6f5;
              position: sticky;
              top: 0;
-}
+          }
 
-.menu-item {
-    padding: 8px;
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-}
+          .menu-item {
+              padding: 8px;
+              font-size: 24px;
+              font-weight: bold;
+              color: black;
+              text-decoration: none;
+              text-transform: uppercase;
+          }
 
             .menu-item:link,
             .menu-item:visited {
