@@ -24,6 +24,7 @@ header h1 {
 }
 
 p {
-    font-size: 15px;
-    line-height: 1.4;
+    padding: 20px;
+    color: black;
+    line-height: 1.6;
 }
