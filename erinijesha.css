@@ -21,7 +21,7 @@ h1 {
 
 /* Image styling */
 .images {
-    width: 70%;
+    width: 150%;
     height: 100%;
 }
 
@@ -41,7 +41,7 @@ p {
 }
 
 .image-wrapper {
-    width: 50%;  /* Adjusts to 2 per row */
+    width: 45%;  /* Adjusts to 2 per row */
     margin: 5px;
     object-fit: cover;
 }
