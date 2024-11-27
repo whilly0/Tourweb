@@ -1,3 +1,12 @@
+/* Main Image */
+.images {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
 /* General Styles */
 body {
     margin: 0;
@@ -24,13 +33,7 @@ h1 {
     margin: 20px 0;
 }
 
-/* Main Image */
-.images {
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-    display: block;
-}
+
 
 /* Gallery Images */
 .iimages {
