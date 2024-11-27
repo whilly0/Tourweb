@@ -4,6 +4,15 @@ body, h1, p, img {
     padding: 0;
 }
 
+/* Main image styling */
+.images {
+    width: 250%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
 /* Body styling */
 body {
     background-color: white;
