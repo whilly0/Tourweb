@@ -1,41 +1,44 @@
-body, h1, p {
+/* General Styles */
+body {
     margin: 0;
-    padding: 0;
-}
-
-
-
-/* Header styling */
-header {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.image-header {
-    max-width: 100%;
-    height: 250px;
-    border-radius: 10px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-h1 {
-    font-size: 48px;
-    color: black;
-    margin-top: 20px;
-}
-
-    body {
     background-color: white;
-    font-size: 20px;
     font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
 }
 
-    
-/* Main content styling */
-.description {
+/* text syles */
+p {
     padding: 20px;
     color: black;
     line-height: 1.6;
+    margin: 0;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: black;
+    margin: 20px 0;
+}
+
+/* Main Image */
+.images {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Gallery Images */
+.iimages {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    display: inline-block;  /* Ensures images are displayed inline */
 }
 
 /* Image gallery styling */
