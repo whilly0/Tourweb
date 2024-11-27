@@ -21,7 +21,7 @@ h1 {
 
 /* Main image styling */
 .images {
-    max-width: 150%;
+    max-width: 250px;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
