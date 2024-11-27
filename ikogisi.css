@@ -35,7 +35,7 @@ h1 {
 }
 
 /* Image gallery styling */
-.image-gallery {
+.imagess {
     height: 850px;
     width: 1420px;
     display: block;
@@ -47,3 +47,4 @@ h1 {
     margin: 10px;
     object-fit: cover;
     height: 350px; /* Keep the height consistent */
+}
