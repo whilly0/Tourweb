@@ -1,12 +1,12 @@
 /* Reset margins and padding for consistency */
-body, h1, p, img {
+body, h1, p {
     margin: 0;
     padding: 0;
 }
 
 /* Main image styling */
 .images {
-    width: 250%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
