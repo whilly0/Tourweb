@@ -1,13 +1,3 @@
-/* General Styles */
-body {
-    margin: 0;
-    background-color: white;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
-    color: black;
-}
-
 /* text syles */
 p {
     padding: 20px;
@@ -32,14 +22,7 @@ h1 {
     display: block;
 }
 
-/* Gallery Images */
-.iimages {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    margin: 10px;
-    display: inline-block;  /* Ensures images are displayed inline */
-}
+
 
 /* Image gallery styling */
 .image-gallery {
