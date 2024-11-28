@@ -1,50 +1,56 @@
-/* Reset some default styling */
-body, h1, p, img {
-    margin: 0;
-    padding: 0;
-}
-
+/* General Styles */
 body {
-    background-color: rgb(141, 150, 202);
-    font-size: 20px;
+    margin: 0;
+    background-color: white;
     font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
 }
 
-/* Header styling */
-header {
-    text-align: center;
-    padding: 20px 0;
+/* text syles */
+p {
+    padding: 20px;
+    color: black;
+    line-height: 1.6;
+    margin: 0;
 }
 
-.image-header {
-    width: 120px;
-    height: auto;
-}
-
+/* Header Styles */
 h1 {
     font-size: 48px;
-    color: white;
-    margin-top: 20px;
+    text-align: center;
+    color: black;
+    margin: 20px 0;
 }
 
-/* Main content styling */
-.description {
-    padding: 20px;
-    color: white;
-    line-height: 1.6;
+/* Main Image */
+.image-header {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Gallery Images */
+.iimages {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    display: inline-block;  /* Ensures images are displayed inline */
 }
 
 /* Image gallery styling */
-.imagess {
-    height: 850px;
-    width: 1420px;
-    display: block;
-    object-fit: cover;
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
 .image-wrapper {
-    width: 650px; /* Set width to 48% for two images per row */
+    width: 45%;  /* Two images per row */
     margin: 10px;
     object-fit: cover;
-    height: 350px; /* Keep the height consistent */
 }
